@@ -16,7 +16,7 @@ const empl2 = {
     name: 'Doe Vasile',
     age: 34
 };
-
+// sth new added
 const textHeader = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'text/plain', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' };
 const jsonHeader = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' };
 
