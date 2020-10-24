@@ -21,7 +21,7 @@ const textHeader = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'text/p
 const jsonHeader = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json', 'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' };
 
 http.createServer((req, res) => {
-
+// critical fixxxx
     console.log('called page!');
     const url = req.url;
     switch (url) {
